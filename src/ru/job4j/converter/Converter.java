@@ -20,16 +20,16 @@ public class Converter {
             System.out.println("140 rubles are " + dollar + " dollars.");
 
 
-            int in = 140;
-            int expected = 2;
-            int out = Converter.rubleToEuro(in);
-            boolean passed = out == expected;
-            System.out.println("test for convert ruble to Euro : " + passed);
-
+//            int in = 140;
+//            int expected = 2;
+//            int out = Converter.rubleToEuro(in);
+//            boolean passed = out == expected;
+//            System.out.println("test for convert ruble to Euro : " + passed);
+//
             int in1 = 120;
             int expected1 = 2;
-            int out1 = Converter.rubleToEuro(in);
-            boolean passed1 = out == expected;
+            int out1 = Converter.rubleToEuro(in1);
+            boolean passed1 = out1 == expected1;
             System.out.println("test for convert ruble to Dollar : " + passed1);
 
         }
