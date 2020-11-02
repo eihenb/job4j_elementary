@@ -34,7 +34,7 @@ public class switchWeek {
     }
 
     public static void main(String[] args) {
-        String rsl = switchWeek.nameOfDay(3);
+        String rsl = nameOfDay(3);
         System.out.println(rsl);
     }
 }
